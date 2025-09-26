@@ -1,0 +1,15 @@
+{
+    "development": {
+        "user": "spliteaseUser",
+        "password": "splitease.info",
+        "database": "spliteaseDB",
+        "host": "@splitease-cluster.zzjr8ei.mongodb.net/"
+    },
+    "production": {
+         "user": "spliteaseUser",
+        "password": "splitease.info",
+        "database": "spliteaseDB-test",
+        "host": "@splitease-cluster.zzjr8ei.mongodb.net/"
+    }
+}
+

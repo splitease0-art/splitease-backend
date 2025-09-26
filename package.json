@@ -1,0 +1,40 @@
+{
+  "name": "splitease-backend",
+  "version": "1.0.0",
+  "description": "fyp-project",
+  "homepage": "https://github.com/splitease0-art/splitease-backend#readme",
+  "bugs": {
+    "url": "https://github.com/splitease0-art/splitease-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitease0-art/splitease-backend.git"
+  },
+  "license": "ISC",
+  "author": "faseh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.2",
+    "morgan": "^1.10.1",
+    "nodemailer": "^7.0.6",
+    "nodemon": "^3.1.10",
+    "password-validator": "^5.3.0",
+    "path": "^0.12.7",
+    "router": "^2.2.0",
+    "session": "^0.1.0"
+  }
+}
